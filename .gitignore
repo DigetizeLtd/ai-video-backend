@@ -1,0 +1,20 @@
+# Ruflo local secrets and runtime data
+.env
+.env.local
+.env.*.local
+.claude-flow/data/
+.claude-flow/logs/
+.claude-flow/sessions/
+.claude-flow/neural/
+
+# Ruflo local vector/memory stores (regenerated per machine, not shared state)
+.swarm/
+ruvector.db
+*.db-wal
+*.db-shm
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
