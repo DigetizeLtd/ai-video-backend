@@ -12,6 +12,19 @@
 - Keep files under 500 lines
 - Validate input at system boundaries
 
+## Video Content Rules
+
+- ALWAYS end every video script, storyboard, or generated video with an explicit
+  call to action. This applies to every video deliverable without being asked.
+- The CTA is the final beat — it gets its own shot and its own on-screen text,
+  never tacked onto the end of another line.
+- Default CTA for TikTok Shop: **"Get yours from the yellow basket below."**
+  The yellow basket is a native TikTok Shop element, so deliver the CTA as spoken
+  voiceover plus a text overlay added in TikTok's editor. Do not ask a video model
+  to render CTA text — it comes out garbled.
+- Substitute the destination when the platform differs (link in bio, promo code,
+  app name), but the CTA itself is never omitted.
+
 ## Ruflo Capability Brain & Implementation Loop
 
 Ruflo is the coordination ledger and policy decision point. Claude Code is the
