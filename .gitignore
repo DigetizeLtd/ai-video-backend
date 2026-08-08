@@ -13,6 +13,16 @@ ruvector.db
 *.db-wal
 *.db-shm
 
+# Ruflo per-session runtime state (daemon PIDs, generated scans, resolved policy)
+.claude-flow/daemon.pid
+.claude-flow/daemon-state.json
+.claude-flow/harness-active-policy.json
+.claude-flow/policy/
+.claude-flow/metrics/
+
+.claude/proven-config.json
+.claude/.proven-config-version
+
 # Python
 __pycache__/
 *.py[cod]
